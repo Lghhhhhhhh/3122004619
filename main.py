@@ -90,7 +90,7 @@ class DuplicateChecking:
 
         original_vector = []
         compare_vector = []
-        if self.read_file()==False:
+        if not self.read_file():
             return False
         if len(self.original_text) > 1000 or len(self.compare_text) > 1000:
             self.long_text_preprocess()
