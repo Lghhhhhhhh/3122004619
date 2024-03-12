@@ -35,8 +35,8 @@ class MyTestCase(unittest.TestCase):
     @patch('builtins.input')
     def test_short_text_preprocess(self):
         result = DuplicateChecking()
-        result.original_text = "废话覅哦说不定v哦i被释放北京库房不玩"
-        result.compare_text = "我IC呢嫩IC那我可浪费钱农村"
+        result.original_text = "废话覅哦说不定v哦i被释冯绍峰放北京库房不玩"
+        result.compare_text = "我IC呢嫩IC那我可浪放放瑟夫费钱农村"
         self.assertEqual(result.short_text_preprocess(), True)
 
     @patch('builtins.input')
