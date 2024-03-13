@@ -32,7 +32,6 @@ class MyTestCase(unittest.TestCase):
         result.read_file()
         self.assertEqual(result.long_text_preprocess(), True)
 
-    @patch('builtins.input')
     def test_short_text_preprocess(self):
         result = DuplicateChecking()
         result.original_text = "废话覅哦说不定v哦i被释冯绍峰放北京库房不玩"

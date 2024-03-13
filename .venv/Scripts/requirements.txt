@@ -1,0 +1,8 @@
+colorama==0.4.6
+iniconfig==2.0.0
+jieba==0.42.1
+numpy==1.26.4
+packaging==24.0
+pluggy==1.4.0
+pytest==8.1.1
+SciPy==1.12.0rc2
