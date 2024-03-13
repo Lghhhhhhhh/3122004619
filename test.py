@@ -50,7 +50,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(result.text_checking(), True)
 
         mock_input.side_effect = [original_text[random.randint(2, 5)], test_text[random.randint(6, 9)],
-                                  r'C:\Users\Lenovo\Desktop\测试集\查重数据.txt']  # 正确的输入
+                                  r'C:\Users\Lenovo\Desktop\测试集\查重数据.txt']  # 错误的输入
         self.assertEqual(result.text_checking(), False)
 
 
