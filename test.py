@@ -2,6 +2,7 @@ import unittest
 import random
 from main import DuplicateChecking
 from unittest.mock import patch  # 用于模拟输入
+
 # 记录测试文本地址
 original_text = [r'C:\Users\Lenovo\Desktop\测试集\orig.txt', r'C:\Users\Lenovo\Desktop\测试集\短orig.txt', '666', '777',
                  '888', '999']
@@ -55,4 +56,4 @@ class MyTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-     unittest.main()
+    unittest.main()
